@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 const app = Vue.createApp({
     data() {
         return {
@@ -9,8 +7,8 @@ const app = Vue.createApp({
             selectedVariant: 0,
             details: ['50% cotton', '30% wool', '20% polyester'],
             variants: [
-              { id: 2234, color: 'green', image: './assets/images/socks_green.jpg', quantity: 50 },
-              { id: 2235, color: 'blue', image: './assets/images/socks_blue.jpg', quantity: 0 },
+                { id: 2234, color: 'green', image: './assets/images/socks_green.jpg', quantity: 50 },
+                { id: 2235, color: 'blue', image: './assets/images/socks_blue.jpg', quantity: 0 },
             ]
         }
     },
@@ -34,4 +32,3 @@ const app = Vue.createApp({
         },
     }
 })
->>>>>>> bc68ec8034f131a1b21d6d43497decc868b335c9
